@@ -114,3 +114,69 @@ traveller
 traveler
 petrol
 gasoline
+appetizer
+starter
+fringe
+bangs
+hairslide
+barrette
+sweets
+candy
+mobile phone
+cell phone
+snakes and ladders
+chutes and ladders
+wardrobe
+closet
+candyfloss
+cotton candy
+anticlockwise
+counterclockwise
+cot
+crib
+nappy
+diaper
+pharmacy
+drug store
+primary school
+elementary school
+motorway
+highway
+skipping rope
+jump rope
+number plate
+license plate
+off-licence
+liquor store
+postbox
+mailbox
+oven glove
+oven mitt
+dummy
+pacifier
+trousers
+pants
+tights
+pantyhose
+car park
+parking lot
+public school
+private school
+state school
+public school
+dressing gown
+robe
+trolley
+cart
+pavement
+sidewalk
+sledge
+sled
+hundreds and thousands
+sprinkles
+pushchair
+stroller
+noughts and crosses
+tic-tac-toe
+flannel
+washcloth

@@ -1,0 +1,108 @@
+trainers
+sneakers
+jumper
+sweater
+waistcoat
+vest
+braces
+suspenders
+chips
+french fries
+crisps
+potato chips
+biscuit
+cookie
+colour
+color
+aeroplane
+airplane
+cheque
+check
+theatre
+theater
+grey
+gray
+courgette
+zucchini
+aubergine
+eggplant
+jacket potato
+baked potato
+runner bean
+string bean
+flat
+apartment
+ground floor
+first floor
+first floor
+second floor
+underground
+subway
+pharmacy
+drug store
+phone box
+phone booth
+queue
+line
+boot
+trunk
+bonnet
+hood
+windscreen
+windshield
+indicator
+blinker
+takeaway
+takeout
+timetable
+schedule
+rubber
+eraser
+post
+mail
+holiday
+vacation
+autumn
+fall
+lift
+elevator
+apologise
+apologize
+programme
+program
+parlour
+parlor
+odour
+odor
+loo
+restroom
+telly
+TV
+sweets
+candy
+rubbish
+garbage
+bin
+trash can
+behaviour
+behavior
+neighbour
+neighbor
+favourite
+favorite
+humour
+humor
+rumour
+rumor
+football
+soccer
+pitch
+field
+draw
+tie
+kit
+uniform
+tea towel
+dish towel
+postal code
+zip code

@@ -33,3 +33,15 @@ def process_original_file(filename):
 wordList = create_word_list("british-american-words.txt")
 print(create_UStoUK_dict(wordList))
 print(create_UKtoUS_dict(wordList))
+
+def take_dialect(dialect):
+    dialect = str(upper(input("What dialect is your text in? ")))
+    return dialect
+
+def take_text(text):
+    text = str(lower(input("Please enter your text: ")))
+    return text
+
+def process_text(text):
+    tWords = text.split(" ")
+    #trying to split input into words, at spaces and also split at punctuation so preserve the punctuation.

@@ -112,3 +112,5 @@ travelling
 traveling
 traveller
 traveler
+petrol
+gasoline

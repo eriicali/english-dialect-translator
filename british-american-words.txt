@@ -6,10 +6,6 @@ waistcoat
 vest
 braces
 suspenders
-chips
-french fries
-crisps
-potato chips
 biscuit
 cookie
 colour
@@ -26,22 +22,10 @@ courgette
 zucchini
 aubergine
 eggplant
-jacket potato
-baked potato
-runner bean
-string bean
 flat
 apartment
-ground floor
-first floor
-first floor
-second floor
 underground
 subway
-pharmacy
-drug store
-phone box
-phone booth
 queue
 line
 boot
@@ -82,8 +66,6 @@ sweets
 candy
 rubbish
 garbage
-bin
-trash can
 behaviour
 behavior
 neighbour
@@ -102,10 +84,6 @@ draw
 tie
 kit
 uniform
-tea towel
-dish towel
-postal code
-zip code
 travelled
 traveled
 travelling
@@ -122,75 +100,41 @@ hairslide
 barrette
 sweets
 candy
-mobile phone
-cell phone
-snakes and ladders
-chutes and ladders
 wardrobe
 closet
-candyfloss
-cotton candy
 anticlockwise
 counterclockwise
 cot
 crib
 nappy
 diaper
-pharmacy
-drug store
-primary school
-elementary school
 motorway
 highway
-skipping rope
-jump rope
-number plate
-license plate
-off-licence
-liquor store
 postbox
 mailbox
-oven glove
-oven mitt
 dummy
 pacifier
 trousers
 pants
 tights
 pantyhose
-car park
-parking lot
-public school
-private school
-state school
-public school
-dressing gown
-robe
 trolley
 cart
 pavement
 sidewalk
 sledge
 sled
-hundreds and thousands
-sprinkles
 pushchair
 stroller
-noughts and crosses
-tic-tac-toe
 flannel
 washcloth
 accommodation
 accommodations
-action replay
-instant replay
 aerofoil
 airfoil
-agony aunt
-advice columnist
-allen key
-allen wrench
 aluminium
 aluminum
 aniseed
 anise
+mum
+mom

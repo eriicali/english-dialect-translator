@@ -44,4 +44,22 @@ def take_text(text):
 
 def process_text(text):
     tWords = text.split(" ")
-    #trying to split input into words, at spaces and also split at punctuation so preserve the punctuation.
+    tWords = tWords.split(".")
+    tWords = tWords.split(",")
+    tWords = tWords.split(";")
+    tWords = tWords.split(":")
+    tWords = tWords.split("!")
+    tWords = tWords.split("?")
+    tWords = tWords.split(".")
+    tWords = tWords.split("$")
+    tWords = tWords.split("-")
+    tWords = tWords.split("(")
+    tWords = tWords.split(")")
+    tWords = tWords.split('"')
+    tWords = tWords.split("'")
+    tWords = tWords.split("@")
+    tWords = tWords.split("#")
+    tWords = tWords.split("&")
+    tWords = tWords.split("/")
+    tWords = tWords.split("\\")
+    return tWords

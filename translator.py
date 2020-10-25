@@ -23,43 +23,48 @@ def create_UStoUK_dict(words) -> dict:
     return UStoUK
 
 
-def process_original_file(filename):
+def process_original_file(filename) -> list:
     with open(filename, "r") as file:
-        allWords = file.read().split(" ")
-        allWords = [word.strip() for word in allWords]
+        allWords = file.readlines()
+        allWords = [word.lower().strip() for word in allWords]
     return allWords
 
 
-wordList = create_word_list("british-american-words.txt")
-print(create_UStoUK_dict(wordList))
-print(create_UKtoUS_dict(wordList))
+def take_text(text) -> list:
+    allWords = text.split(" ")
+    allWords = [word.lower().strip() for word in allWords]
+    return allWords
 
-def take_dialect(dialect):
-    dialect = str(upper(input("What dialect is your text in? ")))
-    return dialect
-
-def take_text(text):
-    text = str(lower(input("Please enter your text: ")))
-    return text
 
 def process_text(text):
-    tWords = text.split(" ")
-    tWords = tWords.split(".")
-    tWords = tWords.split(",")
-    tWords = tWords.split(";")
-    tWords = tWords.split(":")
-    tWords = tWords.split("!")
-    tWords = tWords.split("?")
-    tWords = tWords.split(".")
-    tWords = tWords.split("$")
-    tWords = tWords.split("-")
-    tWords = tWords.split("(")
-    tWords = tWords.split(")")
-    tWords = tWords.split('"')
-    tWords = tWords.split("'")
-    tWords = tWords.split("@")
-    tWords = tWords.split("#")
-    tWords = tWords.split("&")
-    tWords = tWords.split("/")
-    tWords = tWords.split("\\")
-    return tWords
+    allWords = text.split(" ")
+    allWords = [word.lower().strip() for word in allWords]
+    return allWords
+
+
+def create_translation(words, dialectDict):
+    translation = ""
+    for word in words:
+        if word in dialectDict.keys():
+            translation += dialectDict[word]
+        else:
+            translation += word
+        translation += " "
+    return translation
+
+
+def main():
+    myDict = {}
+    translations = process_original_file("british-american-words.txt")
+    print(translations)
+    startingDialect = input("What is your starting dialect? UK or US: ")
+    if startingDialect.upper() == "UK":
+        myDict = create_UKtoUS_dict(translations)
+    elif startingDialect.upper() == "US":
+        myDict = create_UStoUK_dict(translations)
+    originalText = input("Please enter your original text: ")
+    originalTextWords = take_text(originalText)
+    print(create_translation(originalTextWords, myDict))
+
+
+main()

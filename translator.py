@@ -36,13 +36,13 @@ def take_text(text) -> list:
     return allWords
 
 
-def process_text(text):
+def process_text(text) -> list:
     allWords = text.split(" ")
     allWords = [word.lower().strip() for word in allWords]
     return allWords
 
 
-def create_translation(words, dialectDict):
+def create_translation(words, dialectDict) -> str:
     translation = ""
     for word in words:
         if word in dialectDict.keys():

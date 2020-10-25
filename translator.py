@@ -56,7 +56,7 @@ def create_translation(words, dialectDict):
 def main():
     myDict = {}
     translations = process_original_file("british-american-words.txt")
-    print(translations)
+    # print(translations)
     startingDialect = input("What is your starting dialect? UK or US: ")
     if startingDialect.upper() == "UK":
         myDict = create_UKtoUS_dict(translations)
